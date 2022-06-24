@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 注释：根标签有且只有一个 -->
+<contactList>
+    <contact id="1" >
+        <name>  潘金莲  </name>
+        <gender>女</gender>
+        <email>panjinlian@example.com</email>
+    </contact>
+    <contact id="2" >
+        <name>武松</name>
+        <gender>男</gender>
+        <email>wusong@example.com</email>
+    </contact>
+    <contact id="3" >
+        <name>武大狼</name>
+        <gender>男</gender>
+        <email>wudalang@example.com</email>
+    </contact>
+    <user>
+        <contact id="2">
+            <name id="3">张三</name>
+        </contact>
+    </user>
+</contactList>

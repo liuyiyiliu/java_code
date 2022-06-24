@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 注释：根标签有且只有一个 -->
+<Student>
+    <name>Student</name>
+    <sex>male</sex>
+    <age>20</age>
+    <info>
+        <address>info</address>
+    </info>
+    <sql>
+        select * from Student where age &lt; 20 &amp;&amp; > 15
+    </sql>
+</Student>
